@@ -1,0 +1,4 @@
+# Assuming image was build in the right directory using:
+# docker build . -t simple-web-service
+# and browsing to http port 80
+docker run -p 80:8080 -d --name web-service simple-web-service
